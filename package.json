@@ -2,6 +2,7 @@
   "name": "sentiment",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://sentiment-backend1-sentiment-backend.rahtiapp.fi",
   "dependencies": {
     "@tensorflow/tfjs": "^4.17.0",
     "@tensorflow/tfjs-core": "^4.17.0",
