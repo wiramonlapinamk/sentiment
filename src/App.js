@@ -47,7 +47,7 @@ const App = () => {
   const [result, setResult] = useState("");
 
   const sendMsg = () => {
-    fetch("/predict", {
+    fetch("https://sentiment-backend1-sentiment-backend.rahtiapp.fi/predict", {
       method: "POST",
       body: inputText,
     })
