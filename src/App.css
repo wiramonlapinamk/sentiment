@@ -28,30 +28,17 @@ input[type="text"]::placeholder {
 
 .icon {
   font-size: 60px;
+  display: block;
+  margin: auto;
   margin-bottom: 30px;
-  margin-left: 250px;
 }
 
 .result {
   display: flex;
   gap: 15px;
+  width: 500px;
   flex-wrap: nowrap;
   align-items: center;
-}
-
-span.positive {
-  background: #4caf50;
-}
-
-.result span {
-  font-size: 15px;
-  padding: 3px 12px;
-  border-radius: 7px;
-  text-transform: capitalize;
-}
-
-span.negative {
-  background: #f44336;
 }
 
 button {
@@ -60,4 +47,5 @@ button {
   border-radius: 50px;
   width: 100px;
   font-size: 17px;
+  margin-left: 10px;
 }

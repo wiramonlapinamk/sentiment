@@ -67,9 +67,9 @@ const App = () => {
       <h1>Sentiment Analysis</h1>
       <div className="body-container">
         <div className="result">
-          <div className="icon">
+          <p className="icon">
             {result == "pos" ? "🙂" : result == "neg" ? "😞" : "😐"}
-          </div>
+          </p>
         </div>
         <div className="input">
           <input
